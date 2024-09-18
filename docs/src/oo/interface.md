@@ -42,7 +42,7 @@ public interface Electronic {
     String LED = "LED";
 
     // 抽象方法
-    int getElectricityUse();
+    abstract int getElectricityUse();
 
     // 静态方法
     static boolean isEnergyEfficient(String electtronicType) {
